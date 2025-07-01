@@ -1,16 +1,16 @@
 function listar(request, response) {
-  response.send('Função responsável pela listagem');
+  response.send('Lista de alunos');
 }
 
 function cadastrar(request, response) {
-  response.send('Função responsável por cadastrar um aluno');
+  response.send('Cadastrar um aluno');
 }
 
 function deletar(request, response) {
-  response.send('Função responsável por deletar um aluno');
+  response.send('Deletar um aluno');
 }
 function atualizar(request, response) {
-  response.send('Função responsável por atualizar as informações de um aluno');
+  response.send('Atualizar as informações de um aluno');
 }
 
 
